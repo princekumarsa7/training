@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="youtube-clone.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="sidebar">
+            <div class="Home">
+                <p>Home</p>
+            </div>
+            <div class="Home">
+                <p>Shorts</p>
+            </div>
+            <div class="Home">
+                <p>Subscriptions</p>
+            </div>
+            <div class="Home">
+                <p>You</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="header">
+                <img src="data:image/png;base64,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"
+                    alt="image1">
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <input type="audio">
+                </div>
+                <div class="last">
+                    <div>
+                        <h3>Create</h3>
+                    </div>
+                    <div>
+                        <h3>Notifications</h3>
+                    </div>
+                    <div>
+                        <h3>Profile</h3>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="big">
+                    <div>
+                        <img src="https://c.saavncdn.com/181/Ishq-Tera-Hindi-2019-20190910104000-500x500.jpg"
+                            alt="image1">
+                        <hr>
+                        <h3>Ishq tera-guru randhawa</h3>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzTtbDg6Ug8OWCZMCRqx3Bo2oXZe3jW8fCaw&s"
+                            alt="image2">
+                        <hr>
+                        <h3>Mai Pardeshi hu pelhi baar</h3>
+                    </div>
+                    <div>
+                        <img src="https://c.saavncdn.com/363/Saadgi-Hindi-2007-20221204103013-500x500.jpg" alt="image3">
+                        <hr>
+                        <h3>Saadgi</h3>
+                    </div>
+                    <div><img src="https://i.ytimg.com/vi/pkzOBl1p7y4/maxresdefault.jpg" alt="image4">
+                    <hr>
+                    <h3>Jeene Laga hoon</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/YKcgwUg39yY/maxresdefault.jpg" alt="image5">
+                        <hr>
+                        <h3>Dhadak</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/3DdAOVyym0o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDnU2b3ogIWr3wtgfPukNTFa51aAA" alt="image6">
+                        <hr>
+                        <h3>Zindgi hr kadam ek naayi jang h</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/Afm_Nl2Hqss/maxresdefault.jpg" alt="image7">
+                        <hr>
+                        <h3>Filhall</h3>
+                    </div>
+                    <div>
+                        <img src="https://static.india.com/wp-content/uploads/2021/06/pjimage-2021-06-24T175153.837.jpg" alt="image8">
+                        <hr>
+                        <h3>filhall 2</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/oOXtRTG4-RE/maxresdefault.jpg" alt="image8">
+                        <hr>
+                        <h3>Filhall 3</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/XNZM6JUZgN8/maxresdefault.jpg" alt="image9">
+                        <hr>
+                        <h3>megha re megha</h3>
+                    </div>
+                    <div>
+                        <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/06/pjimage-36-1623157344.jpg" alt="image10">
+                        <hr>
+                        <h3>Number Likh</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/JXRbeHr6Wj4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDAYdJhMHOnpe_tFRFzFrlYgmpqYQ" alt="image11">
+                        <hr>
+                        <h3>Poster logwa do</h3>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQx038f2vBHzKGDvP0CJtkNObJ9JbnUFANlA&s" alt="image12">
+                        <hr>
+                        <h3>meyatha maan</h3>
+                    </div>
+                    <div>
+                        <img src="https://stat5.bollywoodhungama.in/wp-content/uploads/2026/01/BORDER-2-Ghar-Kab-Aaoge-Sunny-Deol-AnuMithoon-Sonu-Roop-Arijit-Vishal-Diljit-JavedManoj.jpg" alt="image13">
+                        <hr>
+                        <h3>Ghar kb Aaoge</h3>
+                    </div>
+                    <div>
+                        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202601/oromeo-151129287-16x9_0.jpg?VersionId=cTvp5_eq6xPXmcU3jGU2g4tW1hKk9Owr&size=690:388" alt="image14">
+                        <hr>
+                        <h3>O'romeo</h3>
+                    </div>
+                    <div>
+                        <img src="https://cdn.bollywoodbubble.com/wp-content/uploads/2022/12/Shah-Rukh-Khan-and-Deepika-Padukone-release-Jhoome-Jo-Pathaan-song-poster.jpg" alt="image15">
+                        <hr>
+                        <h3>Zoome ho Paathan</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/SAcpESN_Fk4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_mjr3t-i1XWbL4Bep_htJR7znhw" alt="image16">
+                        <hr>
+                        <h3>Dill Diya Gallan</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/YvX8LINJUgc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA1PY6F7h_rExgOxS641V-Vdfx4cQ" alt="image17">
+                        <hr>
+                        <h3>Ustaad Bhagat Singh</h3>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJx_W7amnjGnVu9vuhamJUu6DiJ7ERNhJH7A&s" alt="image18">
+                        <hr>
+                        <h3>Swan Song</h3>
+                    </div>
+                    <div>
+                        <img src="https://cdn.bollywoodbubble.com/wp-content/uploads/2023/02/tu-jhoothi-main-makkaar-song-pyaar-hota-kayi-baar-hai-out.jpg" alt="image19">
+                        <hr>
+                        <h3>Pyaar Hota h Kya</h3>
+                    </div>
+                    <div>
+                        <img src="https://images.filmibeat.com/img/2024/09/vettaiyanmain-1725861579.jpg" alt="image20">
+                        <hr>
+                        <h3>Vettaiyan first Single</h3>
+                    </div>
+                    <div>
+                        <img src="https://images.indianexpress.com/2021/08/bellbottom-marjaawaan-copy-1200.jpg" alt="image21">
+                        <hr>
+                        <h3>Maarjawa</h3>
+                    </div>
+                    <div>
+                        <img src="https://filmfare.wwmindia.com/content/2025/nov/rebelsaabsingle1763968659.jpg" alt="image22">
+                        <hr>
+                        <h3>Raaja Saab</h3>
+                    </div>
+                    <div>
+                        <img src="https://idiva-media.ilnmedia.com/content/2026/May/lead-63-4_6a129ff124eea.jpg?w=900&h=420&cc=1" alt="image23">
+                        <hr>
+                        <h3>Chunri chunri</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/DNvGdVyB5AM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAYEe9LLj5sTNrlZNWI1yGaquaP-Q" alt="image24">
+                        <hr>
+                        <h3>veluthunna veluthunna</h3>
+                    </div>
+                    <div>
+                        <img src="https://cdn.telugu360.com/wp-content/uploads/2025/12/Mega-Victory-Mass-Lyrical-Video.jpg" alt="image25">
+                        <hr>
+                        <h3>Megs victory mass</h3>
+                    </div>
+                    <div>
+                        <img src="https://i.ytimg.com/vi/LMlrn0vhXVA/maxresdefault.jpg" alt="image26">
+                        <hr>
+                        <h3>Sadness</h3>
+                    </div>
+                    <hr>
+
+
+                    <center>
+                        <h3>Please Refresh for next ............</h3>
+                    </center>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
