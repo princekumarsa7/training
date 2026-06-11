@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    padding: 5% 15%;
+}
+.coffee-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/981/217/small/laptop-and-coffee-cup-on-black-background-top-view-with-copy-space-photo.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 10px;
+    height: 700px;
+    width: 100%;
+    padding: 100px 80px;
+}
+.coffee-menu{
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.coffee-menu h2,span{
+    color: aliceblue;
+    font-style: italic;
+}
+.coffee-menu h2{
+    font-size: xx-large;
+}
+.coffee-menu span{
+    font-size: xxx-large;
+}
+.big-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    margin: 20px 0px;
+    padding: 5px 2px;
+}
+.big-container .breakfast{
+    margin: 10px 2px;
+    /* border: 1px solid white; */
+    height: 98%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.breakfast h2{
+    font-size: larger;
+    color: aliceblue;
+    font-style: italic;
+}
+.breakfast .full{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 4px;
+}
+.breakfast .full h3{
+    color: aliceblue;
+    font-size: smaller;
+}
+.breakfast span{
+    margin: 4px 4px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
